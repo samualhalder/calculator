@@ -1,0 +1,35 @@
+.display{
+    display: flex;
+    color:  #007bff;
+    padding: 40px;
+    justify-content: end;
+    border-width: 0;
+    outline: 0;
+    background-color: #fff;
+    font-size: large;
+    height: 30rem;
+    text-align: end;
+    font-size: 90px;
+}
+input[type="text"]
+{
+    font-size:24px;
+}
+.control{
+    background-color: white;
+    display: grid;
+    height: 300px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 5px;
+}
+.btn{
+    font-size: 60px;
+    height: auto;
+    width: auto;
+}
+.equal{
+    grid-row: span 2;
+    background-color: #1F51FF;
+}
